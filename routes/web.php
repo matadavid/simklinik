@@ -15,5 +15,9 @@ Route::get('/login', function () {
     return view('login');
 });
 Route::get('/template', function () {
-     return view('index');
+     return view('layout.master');
+ });
+Route::get('/input-dokter', 'pegawaicontroller@inputdokter');
+Route::get('/lihat-dokter', function () {
+     return view('pegawai.lihat-dokter');
  });
