@@ -21,3 +21,15 @@ Route::get('/input-dokter', 'pegawaicontroller@inputdokter');
 Route::get('/lihat-dokter', function () {
      return view('pegawai.lihat-dokter');
  });
+Route::get('/resepsionis', function () {
+     return view('layout.resepsionis');
+ });
+Route::get('/kasir', function () {
+     return view('layout.kasir');
+ });
+Route::get('/perawat', function () {
+     return view('layout.perawat');
+ });
+Route::get('/dokter', function () {
+     return view('layout.dokter');
+ });
