@@ -333,12 +333,12 @@
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="javascript:void(0);">
+                                        <a href="{{url ('/lihat-perawat')}}">
                                             <span>LIHAT</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0);">
+                                        <a href="{{url ('/input-perawat')}}">
                                             <span>Tambah</span>
                                         </a>
                                     </li>
@@ -350,12 +350,12 @@
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="javascript:void(0);">
+                                        <a href="{{url ('/lihat-pegawai-lain')}}">
                                             <span>LIHAT</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0);">
+                                        <a href="{{url ('/input-pegawai-lain')}}">
                                             <span>Tambah</span>
                                         </a>
                                     </li>

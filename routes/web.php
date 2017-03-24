@@ -14,13 +14,15 @@
 Route::get('/login', function () {
     return view('login');
 });
-Route::get('/template', function () {
+Route::get('/cobas', function () {
      return view('layout.master');
  });
 Route::get('/input-dokter', 'pegawaicontroller@inputdokter');
-Route::get('/lihat-dokter', function () {
-     return view('pegawai.lihat-dokter');
- });
+Route::get('/lihat-dokter', 'pegawaicontroller@lihatdokter');
+Route::get('/input-perawat', 'pegawaicontroller@inputperawat');
+Route::get('/lihat-perawat', 'pegawaicontroller@lihatperawat');
+Route::get('/input-pegawai-lain', 'pegawaicontroller@inputpegawailain');
+Route::get('/lihat-pegawai-lain', 'pegawaicontroller@lihatpegawai-lain');
 Route::get('/resepsionis', function () {
      return view('layout.resepsionis');
  });
