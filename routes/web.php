@@ -22,7 +22,7 @@ Route::get('/lihat-dokter', 'pegawaicontroller@lihatdokter');
 Route::get('/input-perawat', 'pegawaicontroller@inputperawat');
 Route::get('/lihat-perawat', 'pegawaicontroller@lihatperawat');
 Route::get('/input-pegawai-lain', 'pegawaicontroller@inputpegawailain');
-Route::get('/lihat-pegawai-lain', 'pegawaicontroller@lihatpegawai-lain');
+Route::get('/lihat-pegawai-lain', 'pegawaicontroller@lihatpegawailain');
 Route::get('/resepsionis', function () {
      return view('layout.resepsionis');
  });
