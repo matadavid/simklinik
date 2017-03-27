@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class PegawaiController extends Controller
 {
+    //ini semua untuk view
     public function inputdokter() {
     	return view('master.pegawai.input-dokter');
     }
@@ -24,4 +25,6 @@ class PegawaiController extends Controller
     public function lihatpegawailain() {
     	return view('master.pegawai.lihat-pegawai-lain');
     }
+
+    //disini bagian proses
 }

@@ -370,10 +370,10 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="#">LIHAT</a>
+                                <a href="{{url ('/lihat-jadwal')}}">LIHAT</a>
                             </li>
                             <li>
-                                <a href="#">TAMBAH DATA</a>
+                                <a href="{{url ('/input-jadwal')}}">TAMBAH DATA</a>
                             </li>
                         </ul>
                     </li>
@@ -384,10 +384,10 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="#">LIHAT</a>
+                                <a href="{{url ('/lihat-kamar')}}">LIHAT</a>
                             </li>
                             <li>
-                                <a href="#">TAMBAH DATA</a>
+                                <a href="{{url ('/input-kamar')}}">TAMBAH DATA</a>
                             </li>
                         </ul>
                     </li>
@@ -398,10 +398,10 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="#">LIHAT</a>
+                                <a href="{{url ('/lihat-obat')}}">LIHAT</a>
                             </li>
                             <li>
-                                <a href="#">TAMBAH DATA</a>
+                                <a href="{{url ('/tambah-obat')}}">TAMBAH DATA</a>
                             </li>
                         </ul>
                     </li>
@@ -412,10 +412,10 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="#">LIHAT</a>
+                                <a href="{{url ('/lihat-tindakan')}}">LIHAT</a>
                             </li>
                             <li>
-                                <a href="#">TAMBAH DATA</a>
+                                <a href="{{url ('/input-tindakan')}}">TAMBAH DATA</a>
                             </li>
                         </ul>
                     </li>
@@ -426,10 +426,10 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="#">LIHAT</a>
+                                <a href="{{url ('/lihat-penyakit')}}">LIHAT</a>
                             </li>
                             <li>
-                                <a href="#">TAMBAH DATA</a>
+                                <a href="{{url ('/tambah-penyakit')}}">TAMBAH DATA</a>
                             </li>
                         </ul>
                     </li>
@@ -440,28 +440,28 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="#">Nama Kabupaten</a>
+                                <a href="{{url ('/set-nama-kabupaten')}}">Nama Kabupaten</a>
                             </li>
                             <li>
-                                <a href="#">Nama Kecamatan</a>
+                                <a href="{{url ('/set-nama-kecamatan')}}">Nama Kecamatan</a>
                             </li>
                             <li>
-                                <a href="#">Nama Kelurahan</a>
+                                <a href="{{url ('/set-nama-kelurahan')}}">Nama Kelurahan</a>
                             </li>
                             <li>
-                                <a href="#">Kategori Obat</a>
+                                <a href="{{url ('/set-kategori-obat')}}">Kategori Obat</a>
                             </li>
                             <li>
-                                <a href="#">Satuan Obat</a>
+                                <a href="{{url ('/set-satuan-obat')}}">Satuan Obat</a>
                             </li>
                             <li>
-                                <a href="#">Jenis Obat</a>
+                                <a href="{{url ('/set-jenis-obat')}}">Jenis Obat</a>
                             </li>
                             <li>
-                                <a href="#">Kategori Penyakit</a>
+                                <a href="{{url ('/set-kategori-penyakit')}}">Kategori Penyakit</a>
                             </li>
                             <li>
-                                <a href="#">Kategori Tindakan</a>
+                                <a href="{{url ('/set-kategori-tindakan')}}">Kategori Tindakan</a>
                             </li>
                         </ul>
                     </li>
