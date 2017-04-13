@@ -38,6 +38,12 @@ Route::get('/set-nama-kecamatan', 'SetDatacontroller@SetNamaKecamatan');
 Route::get('/set-nama-kelurahan', 'SetDatacontroller@SetNamaKelurahan');
 Route::get('/set-satuan-obat', 'SetDatacontroller@SetSatuanObat');
 
+Route::get('/input-data-pasien', function () {
+     return view('resepsionis.input-data-pasien');
+ });
+Route::get('/registrasi-berobat', function () {
+     return view('resepsionis.registrasi-berobat');
+ });
 Route::get('/resepsionis', function () {
      return view('layout.resepsionis');
  });

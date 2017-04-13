@@ -12,6 +12,8 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+    <!-- Bootstrap Select Css -->
+    <link href="../../plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
 
     <!-- Bootstrap Core Css -->
     <link href="plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -401,7 +403,7 @@
                                 <a href="{{url ('/lihat-obat')}}">LIHAT</a>
                             </li>
                             <li>
-                                <a href="{{url ('/tambah-obat')}}">TAMBAH DATA</a>
+                                <a href="{{url ('/input-obat')}}">TAMBAH DATA</a>
                             </li>
                         </ul>
                     </li>
@@ -435,8 +437,8 @@
                     </li>
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle">
-                            <i class="material-icons">view list</i>
-                            <span>SET DATA</span>
+                            <i class="material-icons">assignment</i>
+                            <span>Set Data</span>
                         </a>
                         <ul class="ml-menu">
                             <li>
